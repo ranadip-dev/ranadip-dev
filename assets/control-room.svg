@@ -1,0 +1,31 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="b" x2="1" y2="1"><stop stop-color="#020617"/><stop offset=".5" stop-color="#082032"/><stop offset="1" stop-color="#020617"/></linearGradient>
+<linearGradient id="a"><stop stop-color="#38bdf8"/><stop offset=".5" stop-color="#22d3ee"/><stop offset="1" stop-color="#818cf8"/></linearGradient>
+<pattern id="g" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#38bdf8" stroke-opacity=".08"/></pattern>
+<filter id="glow"><feGaussianBlur stdDeviation="5" result="x"/><feMerge><feMergeNode in="x"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="420" rx="28" fill="url(#b)"/>
+<rect x="12" y="12" width="1176" height="396" rx="24" fill="url(#g)" stroke="#1e3a5f" stroke-width="2"/>
+<circle cx="48" cy="48" r="5" fill="#fb7185"/><circle cx="66" cy="48" r="5" fill="#fbbf24"/><circle cx="84" cy="48" r="5" fill="#34d399"/>
+<text x="110" y="54" fill="#64748b" font-family="monospace" font-size="14">ranadip://developer-control-room</text>
+<g transform="translate(72 100)">
+<rect width="55" height="24" rx="12" fill="#0c4a6e" stroke="#38bdf8"/>
+<circle cx="13" cy="12" r="4" fill="#22d3ee"><animate attributeName="opacity" values="1;.2;1" dur="1.6s" repeatCount="indefinite"/></circle>
+<text x="25" y="16" fill="#bae6fd" font-family="monospace" font-size="10">LIVE</text>
+</g>
+<text x="72" y="174" fill="#94a3b8" font-family="monospace" font-size="18" letter-spacing="4">HELLO, I AM</text>
+<text x="68" y="244" fill="url(#a)" font-family="Arial,sans-serif" font-size="74" font-weight="800" filter="url(#glow)">RANADIP DAS</text>
+<text x="72" y="288" fill="#e2e8f0" font-family="monospace" font-size="22">Frontend Developer / MCA Student / Product Builder</text>
+<rect x="72" y="320" width="430" height="42" rx="9" fill="#020617" stroke="#1e3a5f"/>
+<text x="90" y="347" fill="#22d3ee" font-family="monospace" font-size="15">› ideas → interfaces → working products</text>
+<rect x="470" y="333" width="8" height="18" fill="#38bdf8"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+<g transform="translate(908 126)" font-family="monospace">
+<circle cx="92" cy="92" r="90" fill="none" stroke="#38bdf8" stroke-opacity=".18"/>
+<circle cx="92" cy="92" r="68" fill="none" stroke="#22d3ee" stroke-opacity=".55" stroke-dasharray="6 10"><animateTransform attributeName="transform" type="rotate" from="0 92 92" to="360 92 92" dur="16s" repeatCount="indefinite"/></circle>
+<circle cx="92" cy="92" r="48" fill="#082f49" fill-opacity=".6" stroke="#38bdf8"/>
+<text x="92" y="86" text-anchor="middle" fill="#e0f2fe" font-size="28" font-weight="700">RD</text>
+<text x="92" y="111" text-anchor="middle" fill="#38bdf8" font-size="9" letter-spacing="2">BUILD MODE</text>
+</g>
+<text x="925" y="345" fill="#64748b" font-family="monospace" font-size="11">DESIGN · BUILD · DEPLOY</text>
+</svg>
