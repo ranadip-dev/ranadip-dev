@@ -1,0 +1,30 @@
+<svg width="1280" height="430" viewBox="0 0 1280 430" xmlns="http://www.w3.org/2000/svg">
+<defs>
+ <linearGradient id="bg2"><stop stop-color="#020617"/><stop offset="1" stop-color="#0b1022"/></linearGradient>
+ <radialGradient id="core"><stop stop-color="#22d3ee"/><stop offset=".28" stop-color="#0e7490"/><stop offset="1" stop-color="#082f49"/></radialGradient>
+ <filter id="g2"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1280" height="430" rx="28" fill="url(#bg2)" stroke="#1e3a5f"/>
+<text x="58" y="62" fill="#67e8f9" font-family="monospace" font-size="15" letter-spacing="4">TECHNOLOGY ORBIT / TOOLS I ACTUALLY USE</text>
+<g transform="translate(640 238)">
+ <ellipse rx="500" ry="145" fill="none" stroke="#164e63" stroke-width="2"/>
+ <ellipse rx="360" ry="105" fill="none" stroke="#4c1d95" stroke-dasharray="8 12"/>
+ <circle r="78" fill="url(#core)" stroke="#67e8f9" stroke-width="2" filter="url(#g2)"/>
+ <text y="-8" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-weight="800" font-size="24">BUILD</text>
+ <text y="22" text-anchor="middle" fill="#a5f3fc" font-family="monospace" font-size="13">TEST · SHIP</text>
+</g>
+<g font-family="Arial,sans-serif" font-weight="800" font-size="15" text-anchor="middle">
+ <g transform="translate(140 238)"><circle r="48" fill="#2a1007" stroke="#f97316" stroke-width="2"/><text y="5" fill="#fdba74">HTML5</text></g>
+ <g transform="translate(270 125)"><circle r="48" fill="#071a35" stroke="#38bdf8" stroke-width="2"/><text y="5" fill="#7dd3fc">CSS3</text></g>
+ <g transform="translate(475 340)"><circle r="48" fill="#262006" stroke="#facc15" stroke-width="2"/><text y="5" fill="#fde047">JS</text></g>
+ <g transform="translate(640 132)"><circle r="48" fill="#062b38" stroke="#22d3ee" stroke-width="2"/><text y="5" fill="#67e8f9">REACT</text></g>
+ <g transform="translate(805 340)"><circle r="48" fill="#1a0a36" stroke="#a78bfa" stroke-width="2"/><text y="5" fill="#c4b5fd">VITE</text></g>
+ <g transform="translate(1008 125)"><circle r="48" fill="#14102d" stroke="#818cf8" stroke-width="2"/><text y="5" fill="#a5b4fc">PHP</text></g>
+ <g transform="translate(1140 238)"><circle r="48" fill="#061c32" stroke="#38bdf8" stroke-width="2"/><text y="5" fill="#7dd3fc">MYSQL</text></g>
+ <g transform="translate(930 238)"><circle r="38" fill="#25100b" stroke="#fb7185"/><text y="5" fill="#fda4af">GIT</text></g>
+</g>
+<g fill="#22d3ee">
+ <circle cx="190" cy="210" r="4"><animate attributeName="cx" values="190;1090;190" dur="7s" repeatCount="indefinite"/></circle>
+ <circle cx="390" cy="330" r="3"><animate attributeName="cx" values="390;890;390" dur="5s" repeatCount="indefinite"/></circle>
+</g>
+</svg>

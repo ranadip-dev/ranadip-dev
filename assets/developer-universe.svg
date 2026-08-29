@@ -1,0 +1,53 @@
+<svg width="1280" height="650" viewBox="0 0 1280 650" xmlns="http://www.w3.org/2000/svg">
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#02030b"/><stop offset=".48" stop-color="#071528"/><stop offset="1" stop-color="#090319"/></linearGradient>
+ <linearGradient id="cyan"><stop stop-color="#67e8f9"/><stop offset="1" stop-color="#0284c7"/></linearGradient>
+ <linearGradient id="violet"><stop stop-color="#c4b5fd"/><stop offset="1" stop-color="#6d28d9"/></linearGradient>
+ <linearGradient id="top"><stop stop-color="#15314f"/><stop offset="1" stop-color="#24114d"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#22d3ee" stop-opacity=".3"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#38bdf8" stroke-opacity=".06"/></pattern>
+ <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="shadow"><feDropShadow dx="0" dy="22" stdDeviation="18" flood-color="#000" flood-opacity=".75"/></filter>
+</defs>
+<rect width="1280" height="650" rx="34" fill="url(#bg)"/>
+<rect x="14" y="14" width="1252" height="622" rx="27" fill="url(#grid)" stroke="#164e63"/>
+<ellipse cx="770" cy="325" rx="465" ry="300" fill="url(#halo)"><animate attributeName="opacity" values=".45;1;.45" dur="6s" repeatCount="indefinite"/></ellipse>
+
+<g opacity=".45" fill="none">
+ <ellipse cx="820" cy="328" rx="350" ry="130" stroke="#22d3ee" stroke-dasharray="7 13"><animateTransform attributeName="transform" type="rotate" from="0 820 328" to="360 820 328" dur="40s" repeatCount="indefinite"/></ellipse>
+ <ellipse cx="820" cy="328" rx="260" ry="210" stroke="#8b5cf6" stroke-dasharray="4 16"><animateTransform attributeName="transform" type="rotate" from="360 820 328" to="0 820 328" dur="32s" repeatCount="indefinite"/></ellipse>
+</g>
+
+<g transform="translate(85 95)">
+ <rect width="190" height="32" rx="16" fill="#06283b" stroke="#22d3ee"/>
+ <circle cx="19" cy="16" r="6" fill="#22d3ee"><animate attributeName="opacity" values="1;.15;1" dur="1.4s" repeatCount="indefinite"/></circle>
+ <text x="36" y="21" fill="#a5f3fc" font-family="monospace" font-size="12" letter-spacing="2">SYSTEM ONLINE</text>
+ <text y="105" fill="#94a3b8" font-family="monospace" font-size="18" letter-spacing="5">FRONTEND DEVELOPER</text>
+ <text y="185" fill="url(#cyan)" font-family="Arial,sans-serif" font-weight="900" font-size="82" filter="url(#glow)">RANADIP</text>
+ <text y="257" fill="url(#violet)" font-family="Arial,sans-serif" font-weight="900" font-size="82" filter="url(#glow)">DAS</text>
+ <text y="305" fill="#e2e8f0" font-family="monospace" font-size="18">MCA STUDENT · PRODUCT BUILDER</text>
+ <path d="M0 340H305" stroke="#22d3ee" stroke-width="2"/><path d="M0 348H215" stroke="#8b5cf6"/>
+ <text y="385" fill="#94a3b8" font-family="monospace" font-size="15">Ideas become interfaces.</text>
+ <text y="412" fill="#94a3b8" font-family="monospace" font-size="15">Interfaces become working products.</text>
+</g>
+
+<g transform="translate(720 182)" filter="url(#shadow)">
+ <polygon points="0,125 160,30 320,125 160,220" fill="url(#top)" stroke="#67e8f9" stroke-width="2"/>
+ <polygon points="0,125 160,220 160,390 0,295" fill="#07182b" stroke="#0e7490"/>
+ <polygon points="160,220 320,125 320,295 160,390" fill="#100b2b" stroke="#6d28d9"/>
+ <polygon points="54,125 160,63 266,125 160,187" fill="#06121f" stroke="#22d3ee"/>
+ <text x="160" y="119" text-anchor="middle" fill="#e0f2fe" font-family="Arial,sans-serif" font-weight="900" font-size="45">RD</text>
+ <text x="160" y="150" text-anchor="middle" fill="#67e8f9" font-family="monospace" font-size="11" letter-spacing="4">DEVELOPER CORE</text>
+ <path d="M160 30V0M0 125L-38 103M320 125L358 103" stroke="#22d3ee"/>
+ <circle cx="160" cy="-8" r="8" fill="#67e8f9"><animate attributeName="r" values="6;11;6" dur="2s" repeatCount="indefinite"/></circle>
+</g>
+
+<g font-family="monospace" font-size="13" text-anchor="middle">
+ <g transform="translate(1050 115)"><circle r="34" fill="#07182b" stroke="#61dafb"/><text y="5" fill="#61dafb">REACT</text></g>
+ <g transform="translate(1140 310)"><circle r="34" fill="#201b08" stroke="#f7df1e"/><text y="5" fill="#f7df1e">JS</text></g>
+ <g transform="translate(1030 520)"><circle r="34" fill="#150b2b" stroke="#a78bfa"/><text y="5" fill="#c4b5fd">PHP</text></g>
+ <g transform="translate(635 535)"><circle r="34" fill="#07182b" stroke="#38bdf8"/><text y="5" fill="#7dd3fc">MYSQL</text></g>
+</g>
+
+<text x="1235" y="616" text-anchor="end" fill="#475569" font-family="monospace" font-size="11">BUILD UNIVERSE / 2026</text>
+</svg>
