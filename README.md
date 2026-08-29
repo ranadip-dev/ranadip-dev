@@ -8,7 +8,7 @@
 
 </div>
 
-## Front-end focused. Full-stack capable.
+## Front-end Developer. Full-stack capable.
 
 I approach development through the complete application workflow, not only the interface.
 
